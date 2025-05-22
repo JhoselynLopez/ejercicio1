@@ -33,13 +33,13 @@ const VehiculoFilter = () => {
         </div>
       </div>
 
-      {/* Ordenar por nombre a la derecha */}
+      {/* Más antiguos a la derecha */}
       <div className="relative">
         <select
           disabled
           className="appearance-none px-4 py-2 pr-8 border rounded-md bg-[#FCA311] text-white font-semibold cursor-not-allowed"
         >
-          <option>Ordenar por nombre</option>
+          <option>Más antiguos</option>
         </select>
         <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
           <svg
